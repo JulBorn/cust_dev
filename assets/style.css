@@ -1,5 +1,10 @@
 body, h1, h2, h3, h4, p ,ol, li ,ul  {
 	margin: 0;
+	font-family: Montserrat;
+}
+
+a{
+	text-decoration: none;
 }
 
 .header{
@@ -13,42 +18,68 @@ body, h1, h2, h3, h4, p ,ol, li ,ul  {
 .header a{
 	width: 119.6%;
 	font-family: Montserrat;
+	font-size: 14px;
 }
 
 .header__spb{
 	margin-left: 130px;
+	color: #2F80ED;
 }
 
 .header__msc{
 	margin-left: 25px;
+	color: white;
 }
 
 .header__minsk{
 	margin-left: 25px;
+	color: white;
 }
 
 .header__program{
 	margin-left: 158px;
+	color: white;
 }
 
 .header__review{
 	margin-left: 42px;
+	color: white;
 }
 
 .header__price{
 	margin-left: 42px;
+	color: white;
 }
 
 .header__teacher{
 	margin-left: 42px;
+	color: white;
 }
 
 .main{
+	background: url("./img/main-bg.jpg");
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+.main__container{
 	position: absolute;
 	top: 162px;
-	left: 630px;
+	left: 733px;
 	width: 552px;
 	height: 337px;
+	color: white;
+}
+
+.main__container h1{
+	margin: 10px 0;
+}
+
+.main__date{
+	font-size: 16px;
+	line-height: 124.4%;
+	letter-spacing: 5%;
 }
 
 .reviews{
@@ -60,10 +91,62 @@ body, h1, h2, h3, h4, p ,ol, li ,ul  {
 	position: absolute;
 	top: 444px;
 	left: 184px;
+	color: #2F80ED;
+	font-size: 14px;
 }
 
 .reviews div{
+	display: table-cell;
 	width: 231px;
-	height: 231px;display: table-cell;
+	height: 231px;
 	vertical-align: middle;
+}
+
+.reviews__rating{
+	font-size: 34px;
+	line-height: 153.1%;
+}
+
+.reviews__read{
+	font-size: 10px;
+	line-height: 195%;
+	color: #2F80ED;
+}
+
+.second{
+	display: flex;
+	flex-direction: row;
+	background-color: #FFFFFF;
+	margin: 84px 130px;
+}
+
+.second__container1{
+	display: inline-block;
+	width: 50%;
+	line-height: 124.4%;
+	align-self: center;
+	font-size: 30px;
+	padding-right: 40px;
+}
+
+.second__container2 h4{
+	margin-bottom: 20px;
+	color: #2F80ED;
+}
+
+.second__container2{
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	line-height: 124.4%;
+	padding: 30px;
+}	
+
+.second__container2 div{
+	flex-direction: row;
+	width: calc(50% - 30px);
+	height: 200px;
+	background-color: #FFFFFF;
+	margin-left: 15px;
+	margin-right: 15px;
 }
