@@ -113,14 +113,14 @@ a{
 	color: #2F80ED;
 }
 
-.second{
+.advantages{
 	display: flex;
 	flex-direction: row;
 	background-color: #FFFFFF;
 	margin: 84px 130px;
 }
 
-.second__container1{
+.advantages__container1{
 	display: inline-block;
 	width: 40%;
 	line-height: 124.4%;
@@ -129,12 +129,12 @@ a{
 	padding-right: 40px;
 }
 
-.second__container2 h3{
+.advantages__container2 h3{
 	margin-bottom: 20px;
 	color: #2F80ED;
 }
 
-.second__container2{
+.advantages__container2{
 	display: flex;
 	flex-wrap: wrap;
 	width: 60%;
@@ -142,7 +142,7 @@ a{
 	padding: 30px;
 }	
 
-.second__container2 div{
+.advantages__container2 div{
 	flex-direction: row;
 	padding: 30px;
 	width: calc(50% - 90px);
@@ -159,7 +159,7 @@ a{
 }
 
 
-.th{
+.about{
 	display: table-cell;
 	background: url("./img/th-bg.jpg");
 	width: 100vw;
@@ -169,7 +169,7 @@ a{
 	vertical-align: middle;
 }
 
-.th__container{
+.about__container{
 	display: flex;
 	width: 975px;
 	margin: 0 auto;
@@ -177,53 +177,53 @@ a{
 	color: #636363;
 }
 
-.th h2{
+.about h2{
 	text-align: center;
 	font-size: 30px;
 	margin-bottom: 50px;
 }
 
-.th__container div{
+.about__container div{
 	width: 225px;
 	margin-left: 50px;
 	margin-right: 50px;
 	font-size: 14px;
 }
 
-.th h5, .th4 h4{
+.about h5, .program h4{
 	color: #2F80ED;
 }
 
-.th4{
+.program{
 	width: 1032px;
 	margin: 0 auto;
 }
 
-.th4__container{
+.program__container{
 	display: flex;
 	flex-direction: row;
 }
 
-.th4 a{
+.program a{
 	border-bottom: 2px dashed;
 	color: #2F80ED;
 	font-size: 20px;
 
 }
 
-.th4__container2{
+.program__motivation{
 	align-self: center;
 	width: 50%;
 }
 
-.th4__container1{
+.program__keys{
 	display: flex;
 	flex-wrap: wrap;
 	width: 50%;
 	align-self: center;
 }
 
-.th4__container1 div{
+.program__keys div{
 	flex-direction: row;
 	width: calc(50% - 30px);
 	height: 200px;
@@ -233,17 +233,17 @@ a{
 	color: #636363;
 }
 
-.th4 h2{
+.program h2{
 	margin-bottom: 45px;
 }
 
-.th4 h4{
+.program h4{
 	margin-bottom: 10px;
 	color: #2F80ED;
 
 }
 
-.th4__container2 div{
+.program__motivation div{
 	width: calc(330px - 60px);
 	padding: 60px; 
 	margin: 0 auto;
@@ -253,31 +253,31 @@ a{
 	color: #636363;
 }
 
-.th5{
+.results{
 	background: url("./img/5th-bg1.jpg");
 	padding-top: 100px;
 	min-height: 100vh;
 	
 }
 
-.th5 h2{
+.results h2{
 	padding-left: 150px;
 }
 
-.th5__container{
+.results__container{
 	display: flex;
 	height: 100%;
 	margin:  0 130px;
 }
 
-.th5__container1{
+.results__containerOver{
 	align-self: center;
 	display: flex;
 	flex-wrap: wrap;
 	min-height: 100vh;
 }
 
-.th5__container11{
+.results__containerInside{
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
@@ -291,44 +291,44 @@ a{
 	font-size: 16px;
 }
 
-.th5__container1__img{
+.results__img{
 	width: calc(20% - 5px);
 	padding-right: 5px;
 }
 
-.th5__container1__img img{
+.results__img img{
 	width: 100%;
 }
 
-.th5__container__txt{
+.results__descript{
 	width: 80%;
 	color: #636363;
 }
 
-.th5__container__txt h4{
+.results__descript h4{
 	color: black;
 }
 
-.th6{
+.trust{
 	width: calc(100vw - 280px);
 	min-height: 100vh;
 	padding: 0 130px;
 }
 
-.th6__container{
+.trust__container{
 	display: table-cell;
 	vertical-align: middle;
 	height: 100vh;
 }
 
-.th6__container1, .th6__container2{
+.trust__containerTop, .trust__containerBottom {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 20px;
 	align-self: center;
 }
 
-.th6__container2__txt{
+.trust__achivments{
 	width: calc(25% - 60px);
 	margin-left: 30px;
 	margin-right: 30px;
@@ -337,12 +337,12 @@ a{
 	color: #636363;
 }
 
-.th6__container1__video img{
+.trust__video img{
 	margin-left: 30px;
 	width: 600px;
 }
 
-.th6__container1__txt{
+.trust__who{
 	align-self: center;
 	text-align: center;
 	margin-left: 60px;
@@ -352,18 +352,18 @@ a{
 	color: #636363;
 }
 
-.th6__container h2{
+.trust__container h2{
 	margin: 60px 0;
 	padding-left: 30px;
 	color: black;
 }
 
-.th6__container h4{
+.trust__container h4{
 	margin-bottom: 20px;
 	color: #2F80ED;
 }
 
-.th7{
+.review{
 	width: calc(100vw - 280px);
 	min-height: 100vh;
 	padding: 0 130px;
@@ -371,35 +371,35 @@ a{
 	background-repeat: no-repeat;
 }
 
-.th7__container{
+.review__container{
 	display: flex;
 	color: #636363;
 	min-height: 100vh;
 }
 
-.th7__container h4{
+.review__container h4{
 	font-size: 16px;
 	margin-bottom: 20px;
 }
 
-.th7__container1{
+.review__container1{
 	width: 50%;
 }
 
-.th7__container2{
+.review__container2{
 	width: calc(50% - 70px);
 	padding: 25px 70px;
 	align-self: top;
 	
 }
 
-.th7__container1__1, .th7__container1__2{
+.review__container1>div{
 	width: calc(100% - 80px);
 	padding: 15px 70px;
 	align-self: center;
 } 
 
-.th7__container p{
+.review__container p{
 	line-height: 180%;
 	font-size: 16px;
 	background-color: #fff;
@@ -408,11 +408,11 @@ a{
 	margin-bottom: 10px;
 }
 
-.th7__txt{
+.review__txt{
 	position: relative;
 }
 
-.th7__txt:before{
+.review__txt:before{
 	display: block;
 	position: absolute;
 	content: '';
@@ -423,39 +423,39 @@ a{
 	transform: rotate(45deg);
 }
 
-.th8{
+.gallery{
 	max-width: 100vw;
 	min-height: 100%;
 	text-align: center;
 }
 
-.th8__container{
+.gallery__container{
 	display: flex;
 	flex-wrap: wrap;
 	height: 100%;
 }
 
-.th8__container__photo{
+.gallery__photo{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.th8__container__photo img {
+.gallery__photo img {
 	width: calc(25% - 7.5px);
 	margin-bottom: 10px;
 	margin-right: 10px;
 }
 
-.th8__container__photo img:nth-clild(4n){
+.gallery__photo img:nth-clild(4n){
 	margin-right: 100px;
 }
 
-img.th8__4, img.th8__8{
+img.gallery__4, img.gallery__8{
 	margin-right: 0;
 }
 
-.th8__container h2{
+.gallery__container h2{
 	padding: 0 auto;
 	width: 100%;
 	margin-top: 60px;
@@ -474,7 +474,7 @@ img.th8__4, img.th8__8{
 	color: #2F80ED;
 }
 
-.price4comp__container1{
+.price4comp__UsualTarifs{
 	display: flex;
 	flex-wrap: wrap;
 	align-self: center;
@@ -482,7 +482,7 @@ img.th8__4, img.th8__8{
 	margin: 0 auto;
 }
 
-.price4comp__container1 div{
+.price4comp__UsualTarifs div{
 	width: calc(33% - 120px);
 	background-color: #fff;
 	box-shadow: 0 0 40px 10px #CADEF9;
@@ -493,7 +493,25 @@ img.th8__4, img.th8__8{
 	line-height: 158.5%;
 }
 
-.price4comp__container2{
+.price4comp__tarif3{
+	position: relative;
+}
+
+.price4comp__tarif3:before{
+	display: inline-block;
+	position: absolute;
+	content: 'выгодно';
+	background-color: #2F80ED;
+	padding: 30px 0;
+	width: 90px;
+	height: 30px;
+	right: -45px;
+	top: -45px;
+	border-radius: 50%;
+	color: #fff;
+}
+
+.price4comp__SpecialTarif{
 	width: 570px;
 	background-color: #fff;
 	box-shadow: 0 0 40px 10px #CADEF9;
@@ -503,7 +521,7 @@ img.th8__4, img.th8__8{
 	border-radius: 20px;
 }
 
-.price4comp__container2__tarif{
+.price4comp__tarif4 {
 	display: flex;
 	flex-wrap: wrap;
 	align-self: center;
@@ -511,12 +529,12 @@ img.th8__4, img.th8__8{
 	margin: 0 auto;
 }
 
-.price4comp__container2__txt{
+.price4comp__SpecialPrice{
 	width: calc(50% - 0px);
 	align-self: center;
 }
 
-.price4comp__container2__btn{
+.price4comp__SpecialBtn{
 	width: calc(50% - 0px);
 	align-self: center;
 
@@ -533,7 +551,7 @@ img.th8__4, img.th8__8{
     font-style: bold;
 }
 
-.price4comp__container2__btn a.btn{
+.price4comp__SpecialBtn a.btn{
 	margin: 0;
 }
 
@@ -661,7 +679,7 @@ input{
 	max-width: 100vw;
 }
 
-.footer__city__container{
+.footer__CityContainer{
 	max-width: 100vw;
 	background-color: #2F80ED;
 }
@@ -715,7 +733,7 @@ div.footer__registration{
     margin: 50px 0;
 }
 
-.footer__discript__container{
+.footer__DiscriptContainer{
 	max-width: 100vw;
 	background-color: rgb(25, 97, 193);
 	font-size: 14px;
