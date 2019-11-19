@@ -155,6 +155,7 @@ a{
 	border-radius: 10px;
 	box-shadow: 0 0 40px 10px #CADEF9;
 	font-size: 14px;
+	color: #636363;
 }
 
 
@@ -173,6 +174,7 @@ a{
 	width: 975px;
 	margin: 0 auto;
 	line-height: 143.6%;
+	color: #636363;
 }
 
 .th h2{
@@ -202,14 +204,6 @@ a{
 	flex-direction: row;
 }
 
-.th4 h2{
-	margin-bottom: 45px;
-}
-
-.th4 h4{
-	margin-bottom: 10px;
-}
-
 .th4 a{
 	border-bottom: 2px dashed;
 	color: #2F80ED;
@@ -236,6 +230,17 @@ a{
 	background-color: #FFFFFF;
 	margin-left: 15px;
 	margin-right: 15px;
+	color: #636363;
+}
+
+.th4 h2{
+	margin-bottom: 45px;
+}
+
+.th4 h4{
+	margin-bottom: 10px;
+	color: #2F80ED;
+
 }
 
 .th4__container2 div{
@@ -245,12 +250,13 @@ a{
 	line-height: 143.6%;
 	border-radius: 10px;
 	box-shadow: 0 0 40px 10px #CADEF9;
+	color: #636363;
 }
 
 .th5{
 	background: url("./img/5th-bg1.jpg");
 	padding-top: 100px;
-	height: calc(100vh + 100px);
+	min-height: 100vh;
 	
 }
 
@@ -268,6 +274,7 @@ a{
 	align-self: center;
 	display: flex;
 	flex-wrap: wrap;
+	min-height: 100vh;
 }
 
 .th5__container11{
@@ -285,9 +292,463 @@ a{
 }
 
 .th5__container1__img{
-	width: 20%;
+	width: calc(20% - 5px);
+	padding-right: 5px;
+}
+
+.th5__container1__img img{
+	width: 100%;
 }
 
 .th5__container__txt{
 	width: 80%;
+	color: #636363;
+}
+
+.th5__container__txt h4{
+	color: black;
+}
+
+.th6{
+	width: calc(100vw - 280px);
+	min-height: 100vh;
+	padding: 0 130px;
+}
+
+.th6__container{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100vh;
+}
+
+.th6__container1, .th6__container2{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	align-self: center;
+}
+
+.th6__container2__txt{
+	width: calc(25% - 60px);
+	margin-left: 30px;
+	margin-right: 30px;
+	line-height: 143.6%;
+	font-size: 16px;
+	color: #636363;
+}
+
+.th6__container1__video img{
+	margin-left: 30px;
+	width: 600px;
+}
+
+.th6__container1__txt{
+	align-self: center;
+	text-align: center;
+	margin-left: 60px;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 0 40px 10px #CADEF9;
+	color: #636363;
+}
+
+.th6__container h2{
+	margin: 60px 0;
+	padding-left: 30px;
+	color: black;
+}
+
+.th6__container h4{
+	margin-bottom: 20px;
+	color: #2F80ED;
+}
+
+.th7{
+	width: calc(100vw - 280px);
+	min-height: 100vh;
+	padding: 0 130px;
+	background: url("./img/7th-bg.jpg");
+	background-repeat: no-repeat;
+}
+
+.th7__container{
+	display: flex;
+	color: #636363;
+	min-height: 100vh;
+}
+
+.th7__container h4{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.th7__container1{
+	width: 50%;
+}
+
+.th7__container2{
+	width: calc(50% - 70px);
+	padding: 25px 70px;
+	align-self: top;
+	
+}
+
+.th7__container1__1, .th7__container1__2{
+	width: calc(100% - 80px);
+	padding: 15px 70px;
+	align-self: center;
+} 
+
+.th7__container p{
+	line-height: 180%;
+	font-size: 16px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 30px;
+	margin-bottom: 10px;
+}
+
+.th7__txt{
+	position: relative;
+}
+
+.th7__txt:before{
+	display: block;
+	position: absolute;
+	content: '';
+	background-color: #fff;
+	width: 20px;
+	height: 20px;
+	bottom: -10px;
+	transform: rotate(45deg);
+}
+
+.th8{
+	max-width: 100vw;
+	min-height: 100%;
+	text-align: center;
+}
+
+.th8__container{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.th8__container__photo{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.th8__container__photo img {
+	width: calc(25% - 7.5px);
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.th8__container__photo img:nth-clild(4n){
+	margin-right: 100px;
+}
+
+img.th8__4, img.th8__8{
+	margin-right: 0;
+}
+
+.th8__container h2{
+	padding: 0 auto;
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+
+.price4comp{
+	max-width: 100vw;
+	min-height: 100vh;
+}
+
+.price4comp__container{
+	width: calc(100vw - 160px);
+	min-height: 100%;
+	margin: 0 80px;
+	color: #2F80ED;
+}
+
+.price4comp__container1{
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.price4comp__container1 div{
+	width: calc(33% - 120px);
+	background-color: #fff;
+	box-shadow: 0 0 40px 10px #CADEF9;
+	margin: 30px;
+	text-align: center;
+	padding: 50px 30px;
+	border-radius: 20px;
+	line-height: 158.5%;
+}
+
+.price4comp__container2{
+	width: 570px;
+	background-color: #fff;
+	box-shadow: 0 0 40px 10px #CADEF9;
+	margin: 30px auto;
+	text-align: center;
+	padding: 50px 20px;
+	border-radius: 20px;
+}
+
+.price4comp__container2__tarif{
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.price4comp__container2__txt{
+	width: calc(50% - 0px);
+	align-self: center;
+}
+
+.price4comp__container2__btn{
+	width: calc(50% - 0px);
+	align-self: center;
+
+}
+
+.price4comp a.btn {
+    display: inline-block;
+    background: #52D1BC;
+    color: #fff;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-style: bold;
+}
+
+.price4comp__container2__btn a.btn{
+	margin: 0;
+}
+
+.price4comp h2{
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.price4comp h3{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.WhatsIn{
+	max-width: 100vw;
+	min-height: 100vh;
+	background: url("./img/WhatsIn-bg.jpg");
+	padding-top: 150px;
+	padding-bottom: 390px;
+}
+
+.WhatsIn__container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	min-height: calc(100vh - 60px);
+	margin: 0 auto;
+	padding: 0 120px;
+	align-self: center;
+}
+
+.WhatsIn__container>div{
+	width: calc(50% - 170px);
+	margin: 25px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 60px;
+}
+
+.WhatsIn__video img{
+	width: 100%;
+}
+
+.WhatsIn__3month{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.WhatsIn__img{
+	max-width: 30%;
+}
+
+div.WhatsIn__txt{
+	width: calc(70% - 20px);
+	margin-left: 20px;
+}
+ 
+div.WhatsIn__descript{
+	width: calc(50% - 270px);
+	padding-top: 90px;
+	padding-bottom: 0;
+	padding-left: 200px;
+	padding-right: 20px;
+	background-color: transparent;
+	color: #fff;
+}
+
+.WhatsIn__chat img{
+	margin-bottom: 20px;
+}
+
+.WhatsIn h3{
+	color: #2F80ED;
+	font-size: 16px;
+	letter-spacing: 5%;
+	margin-bottom: 10px;
+}
+
+.WhatsIn h2{
+	display: inline-block;
+	padding-left: 150px;
+	color: #fff;
+}
+
+.registration{
+	max-width: 100vw;
+	background-color: #F9FBFF;
+}
+
+.registration__container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0 auto;
+	padding: 60px;
+}
+
+.registration__container div{
+	width: calc(25% - 40px);
+	margin: 0 20px;
+}
+
+.registration a.btn {
+    display: inline-block;
+    background: #52D1BC;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-style: bold;
+}
+
+input{
+	padding: 10px 20px;
+	padding-left: 20px;
+	border: 1px solid #CADEF9;
+	color: #C6C6C6;
+}
+
+.footer{
+	max-width: 100vw;
+}
+
+.footer__city__container{
+	max-width: 100vw;
+	background-color: #2F80ED;
+}
+
+.footer__city{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin:0 auto;
+	
+}
+
+.footer__city>div{
+	width: 50%;
+}
+
+.footer__cities{
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+}
+
+.footer__cities div{
+	width: 15%;
+	text-align: center;
+}
+
+div.footer__cities :first-child{
+	width: 30%;
+}
+
+.footer__cities a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+}
+
+div.footer__registration{
+	width: calc(50% - 280px);
+	padding-left: 280px;
+}
+
+.footer__registration a.btn {
+    display: inline-block;
+    background: #fff;
+    color:  #2F80ED;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-style: bold;
+    margin: 50px 0;
+}
+
+.footer__discript__container{
+	max-width: 100vw;
+	background-color: rgb(25, 97, 193);
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__discript{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.footer__copyright{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 50%;
+	font-size: 14px;
+}
+
+.footer__dogovor{
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+}
+
+.footer__dogovor div{
+	width: calc(50% - 20px);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+}
+
+.footer__oferta{
+	text-align: right;
 }
