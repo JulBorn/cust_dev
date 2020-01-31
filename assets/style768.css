@@ -20,7 +20,7 @@
 	}
 	
 	.main{
-		min-height: 110vh; 
+		min-height: 100vh; 
 	}
 
 	.advantages{
@@ -59,7 +59,7 @@
 	}
 
 	.program{
-		height: 80vh;
+		height: auto;
 	}
 
 	.program__container{
