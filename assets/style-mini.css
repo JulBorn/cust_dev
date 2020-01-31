@@ -1,0 +1,380 @@
+@media screen and (max-width: 759px)
+{
+	.header__spb, .header__msc, .header__minsk, .header__program, .header__review, .header__price, .header__teacher {
+		display: none;
+	}
+
+	.main{
+		background-position: center top;
+		max-height: 100vh;
+
+	}
+
+	.main__container{
+		width: calc(100vw - 3%);
+		left: 3%;
+	}
+
+	.main__logo{
+		font-size: 24px;
+	}
+
+	.reviews{
+		left: 15%;
+	}
+
+	.advantages{
+		display: block;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.advantages__container1{
+		width: calc(100vw - 10px);
+		margin: 0 auto;
+		text-align: center;
+		padding: 0;
+	}
+
+	.advantages__container1 p{
+		font-size: 24px;
+	}
+
+	.advantages__container2{
+		display: block;
+	}
+
+	.advantages__container2 div{
+		width: calc(100vw - 160px);
+	}
+
+	.advantages__container2 h3{
+		font-size: 20px;
+	}
+
+	.about{
+		padding: 20px;
+		background-size: cover;
+		display: block;
+		width: calc(100vw - 40px);
+		min-height: 100vh;
+	}
+
+	.about__container{
+		display: block;
+		min-height: 100vh;
+		width: 100%;
+	}
+
+	.program__motivation{
+		display: none;
+	}
+
+	.program {
+		width: 100vw;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.program__keys{
+		display: block;
+		width: 100%;
+	}
+
+	.program__keys div{
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		text-align: left;
+		height: auto;
+	}
+
+	.program__keys h4{
+		font-size: 20px;
+	}
+
+	.program__watch{
+		width: 70%;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.program__watch a{
+		font-size: 15px;
+	}
+
+	.results{
+		background-size: cover;
+	}
+
+	.results h2{
+		text-align: center; 
+		padding: 0;
+	}
+
+	.results__container, .results__containerOver{
+		display: block;
+		margin: 0;
+	}
+
+	.results__containerInside{
+		display: block;
+		width: calc(100% - 140px);
+		margin: 20px 10px;
+		padding: 60px;
+	}
+
+	.results__containerInside h4{
+		font-size: 18px;
+		color: #2F80ED;
+		margin-bottom: 20px;
+	}
+
+	.results__img{
+		height: 50px;
+		margin-bottom: 10px;
+	}
+
+	.results__img img{
+		height: 100%;
+		width: auto;
+	}
+	
+	.trust{
+		padding: 0;
+		margin: 0;
+		width: 100vw;
+		height: auto;
+	}
+
+	.trust__container{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.trust__container h2{
+		text-align: center;
+		padding: 0;
+	}
+
+	.trust__video img{
+		width: calc(100% - 20px);
+		margin: 10px;
+	}
+
+	.trust__who{
+		display: none;
+	}
+
+	.trust__containerBottom{
+		display: block;
+		height: auto;
+	}
+
+	.trust__achivments{
+		width: calc(100% - 60px);
+		margin: 40px 30px;
+	}
+
+	.review{
+		background-size: cover;
+		background-position: center;
+		padding: 0;
+		margin: 0;
+		width: 100vw;
+	}
+
+	.review__container{
+		display: block;
+	}
+
+	.review__container1, .review__container2{
+		width: 100%;
+		padding: 0;
+	}
+
+	.review__container1>div, .review__container2>div{
+		width: calc(100% - 20px);
+		padding: 10px;
+	}
+
+	.gallery__photo img {
+		width: calc(50% - 7.5px);
+		margin-top: 5px;
+	}
+	
+	img.gallery__2, img.gallery__6, img.gallery__8, img.gallery__4{
+		margin-right: 0;
+		margin-left: 5px;
+	}
+
+	.price4comp__container{
+		margin: 0;
+		width: 100%;
+	}
+
+	.price4comp__UsualTarifs{
+		display: block;
+	}
+
+	.price4comp__tarif1, .price4comp__tarif2, .price4comp__tarif3, .price4comp__tarif4{
+		width: calc(100% - 120px);
+	}
+
+	.price4comp__tarif4{
+		display: block;
+		margin: 30px;
+		padding: 50px 30px;
+		text-align: center;
+	}
+
+	.price4comp__SpecialPrice{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.price4comp__SpecialBtn{
+		width: 100%;
+	}
+
+	.price4comp__tarif3:before{
+		width: 60px;
+		height: 30px;
+		padding: 15px 0;
+		font-size: 10px;
+		right: 5px;
+		top: 0px;
+	}
+
+	.WhatsIn{
+		background-size: cover;
+		background-position: center;
+		padding-bottom: 40px;
+	}
+
+	.WhatsIn h2{
+		display: block;
+		padding: 0;
+		text-align: center;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.WhatsIn__cotainer{
+		padding: 10px;
+	}
+
+	div.WhatsIn__descript{
+		display: block;
+		width: calc(100% - 60px);
+   		margin: 5px 0px;
+    	background-color: #fff;
+    	border-radius: 20px;
+    	padding: 30px;
+	}
+
+	.WhatsIn__descript p{
+		color: #636363;
+	}
+
+	div.WhatsIn__3month, div.WhatsIn__video, div.WhatsIn__chat{
+		width: calc(100% - 60px);
+		display: block;
+		margin: 5px 0px;
+		padding: 30px;
+	}
+
+	div.WhatsIn__txt{
+		width: 100%;
+		margin: 0;
+	}
+
+	.registration__container{
+		display: block;
+		width: calc(100% - 40px);
+		padding: 60px 20px;
+		margin: 0;
+	}
+
+	.registration__name{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.registration__container>div{
+		min-width: 100%;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	input{
+		padding: 10px 30px;
+		width: calc(100% - 60px);
+	}
+
+	.registration a.btn{
+		width: calc(100% - 40px);
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.footer__cities{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.footer__cities>div{
+		width: 100%;
+		text-align: center;
+		margin: 20px 0;
+	}
+
+	.footer__registration{
+		width: 100%;
+	}
+
+	.footer__registration a.btn{
+		margin: 10px auto;
+	}
+
+	.footer__DiscriptContainer{
+		display: block;
+	}
+
+	.footer__discript{
+		display: block;
+	}
+
+	.footer__copyright{
+		width: 100%;
+		padding: 20px 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	.footer__dogovor{
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.footer__dogovor div{
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.footer__politica{
+		margin-bottom: 30px;
+	}
+
+	.footer2{
+		margin: 0;
+		padding: 0;
+		max-height: 200px;
+	}
+}

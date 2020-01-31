@@ -1,0 +1,215 @@
+@media screen and (max-width: 1025px) and (min-width: 760px)
+{
+	.header__msc, .header__minsk, .header__program, .header__review, .header__price, .header__teacher {
+		display: none;
+	}
+	.main__container{
+		position: absolute;
+		left: 38%;
+		top: 35%;
+		width: 455px;
+	}
+
+	.main__logo{
+		font-size: 36px;
+	}
+
+	.reviews{
+		position: absolute;
+		left: 15%;
+	}
+	
+	.main{
+		min-height: 110vh; 
+	}
+
+	.advantages{
+		display: block;
+	}
+
+	.advantages__container1{
+		width: 100%;
+		text-align: center;
+	}
+
+	.advantages__container2{
+		width: 100%;
+		padding: 0;
+	}
+	
+	.about {
+    	width: calc(100vw - 90px);
+    	padding: 0 40px;
+    }
+
+	.about__container {
+    	width: calc(100vw - 80px);
+    }
+
+    .about__container div {
+    	width: 30%;
+    	margin: 0 20px;
+	}
+
+	.about h2 {
+		text-align: left;
+    	margin-bottom: 20px;
+    	margin-left: 20px;
+    	max-width: 60%;
+	}
+
+	.program{
+		height: 80vh;
+	}
+
+	.program__container{
+		display: block;
+	}
+
+	.program__keys {
+		width: 100%;
+	}
+
+	.program__keys div{
+		height: 100px
+	}
+
+	.program__motivation div{
+		position: absolute;
+		right: 30px;
+		z-index: 5;
+		padding: 50px 30px;
+	}
+
+	.program__watch{
+		width: 40%;
+		margin-top: 40px;
+		margin-left: 15px;
+	}
+
+	.program a{
+		font-size: 15px;
+		line-height: 30px;
+	}
+
+	.results{
+		background: url("./img/bg786.jpg");
+		background-size: cover;
+	}
+
+	.results__containerOver{
+		display: block;
+	}
+
+	.results__containerInside{
+		width: calc(100% - 40px - 80px);
+	}
+
+	.trust{
+		margin: 0;
+		padding: 0 100px;
+		width: calc(100vw - 200px);
+	}
+
+	.trust__video img {
+		margin: 0;
+	    width: 100%;
+	}
+
+	.trust__who{
+		display: none;
+	}
+
+	.trust__achivments{
+		width: calc(50% - 60px);
+		margin-bottom: 15px;
+	}
+
+	.review{
+		width: calc(100vw - 200px);
+		padding: 100px;
+		background: url("./img/bg768-review.png");
+		background-size: cover;
+	}
+
+	.review__container{
+		display: block;
+	}
+	
+	.review__container1>div{
+		width: 150%;
+	}
+
+	.review__container2{
+		width: calc(100% - 70px);
+	}
+
+	.price4comp__tarif1, .price4comp__tarif2, .price4comp__tarif3, .price4comp__tarif4{
+		width: calc(50% - 120px);
+	}
+
+	.price4comp__tarif4{
+		display: block;
+		padding: 50px 30px;
+		text-align: center;
+	}
+
+	.price4comp__SpecialPrice{
+		width: 100%;
+	}
+
+	.price4comp__SpecialBtn a.btn{
+		margin-top: 30px;
+		margin-left: 15px;
+	}
+
+	.WhatsIn__3month{
+		display: block;
+	}
+
+	.WhatsIn__txt{
+		width: 100%;
+		height: 70%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.WhatsIn__container{
+		width: 90%;
+		padding: 0;
+	}
+
+	.WhatsIn__descript, .WhatsIn__3month, .WhatsIn__video, .WhatsIn__chat{
+		width: calc(50% - 120px) !important;
+		padding: 30px 30px !important;
+		height: 50%;
+	}
+
+	div.WhatsIn__descript{
+		background-color: #fff;
+		border-radius: 20px;
+		color: #000;
+	}
+
+	.WhatsIn{
+		background-repeat: no-repeat;
+	}
+
+	.registration__container div {
+    	width: calc(50% - 40px);
+    	margin: 20px;
+	}
+
+	input{
+		width: 90%;
+	}
+
+	.registration a.btn{
+		width: 90%;
+		text-align: center;
+	}
+
+	.footer__city, .footer__discript{
+		width: 95%;
+	}
+}
