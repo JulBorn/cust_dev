@@ -11,6 +11,10 @@ a{
 	text-decoration: none;
 }
 
+.menu{
+	display: none;
+}
+
 .header{
 	padding: 20px 0;
 	max-width: 100vw;
@@ -388,12 +392,10 @@ a{
 }
 
 .review{
-	width: calc(100vw - 280px);
+	width: 100vw;
 	min-height: 100vh;
-	padding: 0 130px;
 	background: url("./img/7th-bg.jpg");
 	background-repeat: no-repeat;
-	-webkit-background-size: cover;
 	background-size: cover;
 }
 
@@ -401,6 +403,13 @@ a{
 	display: flex;
 	color: #636363;
 	min-height: 100vh;
+	width: calc(100% - 60px);
+	margin: 0 30px;
+}
+
+.review h2{
+	padding-left: 100px;
+	margin-bottom: 30px;
 }
 
 .review__container h4{
@@ -413,15 +422,14 @@ a{
 }
 
 .review__container2{
-	width: calc(50% - 70px);
-	padding: 25px 70px;
+	width: calc(50% - 140px);
+	margin: 25px 70px;
 	align-self: top;
-	
 }
 
 .review__container1>div{
-	width: calc(100% - 80px);
-	padding: 15px 70px;
+	width: calc(100% - 140px);
+	padding: 25px 70px;
 	align-self: center;
 } 
 
